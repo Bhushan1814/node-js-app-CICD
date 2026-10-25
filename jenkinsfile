@@ -4,8 +4,6 @@ pipeline {
     environment {
         SERVER_IP      = '172.31.47.11'
         SSH_CREDENTIAL = 'node-pipeline-key'
-        SERVER_IP      = '172.31.13.206'
-        SSH_CREDENTIAL = 'node-pipeline-key'
         REPO_URL       = 'https://github.com/iamtruptimane/node-js-app-CICD.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
